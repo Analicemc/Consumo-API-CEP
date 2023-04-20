@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+    <title>Consumo da API de CEPs do Brasil</title>
+</head>
+<body>
+    <header><nav></nav></header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Endereço</legend>
+                <label>CEP
+                    <input required type="number" name="cep">
+                </label>
+                <label>Logradouro
+                    <input type="text" id="lograd" name="lograd" readonly>
+                </label>
+                <label>Complemento
+                    <input type="text" id="comple" name="comple">
+                </label>
+                <label>Bairro
+                    <input type="text" id="bairro" name="bairro" readonly>
+                </label>
+                <label>Cidade
+                    <input type="text" id="cidade" name="cidade" readonly>
+                </label>
+                <label>Estado
+                    <input type="text" id="estado" name="estado" readonly>
+                </label>
+            </fieldset>
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+    <footer></footer>
+</body>
+</html>
