@@ -4,3 +4,6 @@ Esse projeto simples realiza o consumo da API de CEPs, o objetivo final é reali
 ## Finalidade
 * Aprendizado acerca de consumo de API e biblioteca jQuery
 * Reaproveitamento desse código em outros projetos
+
+## Como utilizar
+Preencha o campo CEP corretamente e dê um TAB (sim, só isso mesmo)
