@@ -7,4 +7,4 @@ Esse projeto simples realiza o consumo da API de CEPs, o objetivo final é reali
 
 ## Como utilizar
 * Entre em https://analicemc.github.io/Consumo-API-CEP/ 
-* Preencha o campo CEP corretamente e dê um TAB (sim, só isso mesmo)
+* Preencha o campo CEP corretamente e dê um TAB
